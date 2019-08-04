@@ -40,7 +40,7 @@ and the slave is simply set up with no running software.
 Simply find the hostname of the slave instance by running:
   
 ```bash
-docker exec -it hadoop_cluster_slave_1 /bin/bash/hostname
+docker exec -it hadoop_cluster_slave_1 /bin/hostname
 ```
   
 After that, go inside the master instance by running:
