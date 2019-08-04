@@ -82,8 +82,8 @@ each of the slaves instances:
 If you've followed all of the steps carefully, you should see 2 datanodes 
 and 2 nodemanagers on these hadoop UI pages:  
   
-- http://localhost:50070
-- http://localhost:8088
+- http://localhost:50070/dfshealth.html#tab-datanode
+- http://localhost:8088/cluster/nodes
 
 ## Scaling the cluster up and down
   
